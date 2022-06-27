@@ -1,0 +1,195 @@
+html{font-size: 12px !important};
+
+/* width */
+.nav-treeview > .nav-item {
+  padding-left: 5px !important;
+
+}
+.nav-sidebar > .nav-header{
+  height:5px !important;
+}
+.nav-link.active{
+  background-color: rgb(255 255 255 / 25%) !important;
+}
+.nav-header > hr {
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+}
+.navbar-nav .nav-link{
+  padding-top: 10px !important;
+
+}
+.dropdown-menu>li>a{
+  color: #0056b3;
+}
+.dropdown-toggle.btn-default.btn:hover, .dropdown-toggle.btn-default.btn:focus, .dropdown-toggle.btn-default.btn.focus {
+  color: #222 !important;
+  background-color: #f4f4f4;
+}
+.dropdown-toggle.btn-default:active, .dropdown-toggle.btn-default.active, .open>.dropdown-toggle.btn-default {
+  color: #fff !important;
+}
+.caret{
+  display: none;
+}
+.form-control{
+  height: 30px !important;
+  padding: 6px 6px !important;
+}
+.navbar {
+    min-height: 46px !important;
+    height: 46px !important;
+    border-radius: 0px;
+}
+
+.navbar-nav {
+    margin: 0;
+    min-height: 45px !important;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-left: 0px;
+}
+.actionsCol >.btn{
+  font-size: .7rem !important;
+  width: 25px;
+  height: 25px;
+  padding: 4px;
+}
+
+.brand-link{
+  height: 46px !important;
+}
+.wrapper{
+  margin-top: 40px !important;
+  margin-bottom: 28px !important;
+}
+.nav-fixed-top {
+  z-index: 2;
+  top:0px;
+  width: 100% !important;
+  position: fixed !important;
+
+}
+.nav-treeview > .nav-item > .nav-link{
+
+  color: #ffbb00 !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-center{
+  text-align: center !important;
+}
+::-webkit-scrollbar  {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #343a40;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+.table.table-bordered{
+  border:1px #ccc !important;
+  border-spacing: 0px !important;
+}
+  table-bordered>thead>tr>th, .table-bordered>thead>tr>th, table-bordered>tbody>tr>th, .table-bordered>tbody>tr>th, table-bordered>tfoot>tr>th, .table-bordered>tfoot>tr>th, table-bordered>thead>tr>td, .table-bordered>thead>tr>td, table-bordered>tbody>tr>td, .table-bordered>tbody>tr>td, table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>td {
+      border: 1px solid #ccc !important;
+  }
+  .table-bordered>tfoot>tr>td{
+    background-color: #f7ffff !important;
+  }
+
+
+  /* The Modal (background) */
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /* border: 1px solid #888; */
+    /* padding-left: 20px; */
+    padding:0px;
+    border:0px;
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+    div.carousel-caption{
+      font-size: 10px !important;
+
+    }
+
+  }
