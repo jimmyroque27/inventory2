@@ -166,8 +166,8 @@ return [
         /*
          * Package Service Providers...
          */
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Barryvdh\DomPDF\ServiceProvider::class,
+        // Barryvdh\Debugbar\ServiceProvider::class,
+        // Barryvdh\DomPDF\ServiceProvider::class,
         /*
          * Application Service Providers...
          */
